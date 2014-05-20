@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical" >
+	    <WebView 
+	        android:id="@+id/content"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"/>
+  </LinearLayout> 
+   
+	<ImageView
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:id="@+id/khungdich"
+     >
+			    <TextView 
+			        android:layout_width="match_parent"
+			        android:layout_height="0dp"
+			        android:layout_weight="0.2"
+			    />
+			    <LinearLayout 
+			        android:layout_width="match_parent"
+				    android:layout_height="0dp"
+				    android:layout_weight="0.08"
+			        android:orientation="horizontal"
+			        android:background="#FFB584" >
+			         <TextView 
+				        android:layout_width="0dp"
+				        android:layout_height="match_parent"
+				        android:layout_weight="0.8"
+				        android:text="Dịch từ Google Translate"
+				        android:textSize="16px"
+				        android:textStyle="bold"
+				        android:gravity="center"
+			        />
+			        <com.example.bom.ImageSquare 
+			            android:id="@+id/x"
+			            android:layout_width="wrap_content"
+				        android:layout_height="match_parent"
+				        android:background="@drawable/x" 
+				        android:layout_gravity="right"
+				     /> 
+			    </LinearLayout>
+			   
+			     <WebView 
+			        android:id="@+id/translate"
+			        android:layout_height="0dp"
+			        android:layout_weight="0.3"
+			        android:layout_width="wrap_content"
+			       />   
+			     <View 
+			        android:layout_width="match_parent"
+			        android:layout_height="2dp"
+			        android:background="#FFB584"
+			        android:layout_weight="0.01"
+			    />    
+			    <TextView 
+			        android:layout_width="match_parent"
+			        android:layout_height="0dp"
+			        android:layout_weight="0.2"
+			    />       
+    </LinearLayout>
+</FrameLayout>

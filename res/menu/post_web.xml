@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hmkcode="http://schemas.android.com/apk/res-auto" >
+    <item
+       android:id="@+id/action_setting"
+       android:icon="@drawable/ic_action_settings"
+       android:title="@string/setting"
+       hmkcode:showAsAction="always"
+       >
+       <menu>
+		   <item
+		       android:id="@+id/action_zoom_t"
+		       android:icon="@drawable/zoom_t"
+		       android:title="@string/zoom_t"
+		
+		       /> 
+		   <item
+		       android:id="@+id/action_zoom_g"
+		       android:icon="@drawable/zoom_g"
+		       android:title="@string/zoom_g"
+		
+		       /> 
+		   <item
+		       android:id="@+id/action_save"
+		       android:icon="@drawable/ic_action_save"
+		       android:title="@string/save"
+		       hmkcode:showAsAction="always"
+		       />  
+           
+       </menu>
+    </item>  
+   
+
+</menu>

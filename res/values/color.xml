@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="item_scroll">#D8D8D8</color>
+    <color name="title_highlight">#A0A0A0</color>
+    <color name="color_grid">#CECECE</color>	
+    <color name="border_grid">#787D9E</color>
+    <color name="title_grid">#A0A0A0</color>
+    <color name="background_item_navigation">#CCCCCC</color>
+    <color name="background_item_navigation_end">#AFAFAF</color>
+    <color name="background_item_navigation_press">#8E8E8E</color>
+</resources>

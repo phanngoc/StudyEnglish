@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView 
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/title"
+        android:text="LỰA CHỌN CÁCH HỌC"
+        android:textSize="27sp"
+        android:textColor="#002633"
+        android:background="@drawable/gradient_method"/>
+    <View android:layout_height="2dp"
+        android:layout_width="match_parent"
+        android:background="#3E0000"/>
+    <View android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.2"
+        android:background="#A5FFCA"/>
+     <LinearLayout 
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:orientation="vertical"
+        android:background="#A5FFCA"
+        >
+        <LinearLayout 
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+            <ImageButton 
+                android:id="@+id/studyvoa"    
+                android:background="@drawable/voa"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+             <ImageButton 
+                android:id="@+id/dialogue"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/dialo"
+                android:layout_height="match_parent"
+                />
+             
+        </LinearLayout>
+
+        <LinearLayout 
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+            <ImageButton 
+                android:id="@+id/pharse"
+                android:background="@drawable/pharse"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                />
+            <ImageButton 
+                android:id="@+id/thongdung"
+                android:background="@drawable/crazy"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+
+       
+     </LinearLayout>
+     <View
+        android:layout_height="0dip"
+        android:layout_width="match_parent"
+        android:layout_weight="0.2"
+        android:background="#A5FFCA"/>
+</LinearLayout>

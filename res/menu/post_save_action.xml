@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hmkcode="http://schemas.android.com/apk/res-auto" >
+    <item
+		android:id="@+id/action_zoom_t"
+		android:icon="@drawable/zoom_t"
+		android:title="@string/zoom_t"
+		hmkcode:showAsAction="always"
+    /> 
+	<item
+	    android:id="@+id/action_zoom_g"
+		android:icon="@drawable/zoom_g"
+		android:title="@string/zoom_g"
+		hmkcode:showAsAction="always"
+    /> 
+    <item
+       android:id="@+id/action_delete"
+       android:icon="@drawable/ic_action_remove"
+       android:title="@string/delete"
+       hmkcode:showAsAction="always"
+      />  
+</menu>

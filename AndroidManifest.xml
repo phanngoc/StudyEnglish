@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studyenglish"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="14" />
+     <uses-permission android:name="android.permission.INTERNET" />
+     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appname"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.studyenglish.MainActivity"
+            android:label="@string/app_name" >
+           
+        </activity>
+        <activity
+            android:name="com.example.studyenglish.MethodStudyActivity"
+            android:label="@string/app_name" >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.studyenglish.TestActivity"
+            android:label="@string/app_name" >
+             
+        </activity>
+        <activity
+            android:name="com.example.studyenglish.VOActivity"
+            android:label="@string/app_name" 
+            android:theme="@style/Theme.AppCompat.Light" >
+        </activity>
+        <activity
+            android:name="com.example.studyenglish.ListAudioFragment"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.studyenglish.ListenVOAActivity"
+            android:label="@string/app_name" 
+            android:theme="@style/Theme.AppCompat.Light">
+        </activity>
+         <activity
+            android:name="com.example.studyenglish.ListVideoActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.studyenglish.WatchVideoVOA"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.studyenglish.DialogueActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.studyenglish.ListChildCateDialogue"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.bom.PharseActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.example.bom.CrazyActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.bom.CrazyDayDetail"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.bom.TestUtil"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name=".ReadPaper"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light" >
+            
+        </activity>
+        <activity
+            android:name=".PostDetail"
+            android:label="@string/app_name" 
+            android:theme="@style/Theme.AppCompat.Light" 
+          
+           >    
+        </activity>
+        <activity
+            android:name=".ReadPostSave"
+            android:label="@string/app_name" 
+            android:theme="@style/Theme.AppCompat.Light">
+            
+        </activity>
+        <activity
+            android:name=".Setting"
+            android:label="@string/app_name" 
+            android:theme="@style/Theme.AppCompat.Light">
+            
+        </activity>
+        
+        
+    </application>
+
+</manifest>
